@@ -10,3 +10,7 @@ libmdns = "*"
 mdns = "*"
 tokio = { version = "*", features = ['full'] }
 futures-util = "*"
+serde = { version = "1.0", features = ["derive"] }
+bincode = "*"
+serde_traitobject = "*"
+serde_closure = "*"
